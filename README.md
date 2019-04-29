@@ -21,3 +21,6 @@ Week 3:
   5) lambda, map , filter and reduce function (reduce function requre import functool)
   6) list comprehenstion
   7) Exception handling
+Week 4 :
+  1) Numpy operations
+  2) Panda operations
