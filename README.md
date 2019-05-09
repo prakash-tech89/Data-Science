@@ -21,6 +21,20 @@ Week 3:
   5) lambda, map , filter and reduce function (reduce function requre import functool)
   6) list comprehenstion
   7) Exception handling
+
 Week 4 :
   1) Numpy operations
   2) Panda operations
+
+Week 5:
+  1) Data pre-processing technique
+  2) One-hot encoding and Label encoding
+  3) Standardization
+  
+Week 6:
+  1) Statistics
+  2) Central Tendency - Mean,Median and mode
+  3) Standard deviation and variance
+  4) Coefficient of variation
+  5) Percentile
+  6) Spread of data using Box plot
