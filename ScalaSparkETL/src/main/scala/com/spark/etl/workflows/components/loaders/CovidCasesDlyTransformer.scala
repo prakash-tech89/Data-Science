@@ -19,9 +19,9 @@ class CovidCasesDlyTransformer extends TransformTrait {
 
 
     //Filter out last 14 days and select needed columns to avoid unnecessary processing
-      val Last14DayDF = covidDlyDF.filter(col("Last_Update") > date_add(current_timestamp(),-14)).select("Province_State", "Country_Region", "Last_Update", "Active")
+    //  val Last14DayDF = covidDlyDF.filter(col("Last_Update") > date_add(current_timestamp(),-14)).select("Province_State", "Country_Region", "Last_Update", "Active")
     //  since i have used 1 day file which might not cover up for 14 days. So used below code to test my code
-    //val Last14DayDF = covidDlyDF.filter(col("Last_Update") > "2021-01-02").select("Province_State", "Country_Region", "Last_Update", "Active")
+    val Last14DayDF = covidDlyDF.filter(col("Last_Update") > "2021-01-02").select("Province_State", "Country_Region", "Last_Update", "Active")
 
 
 
